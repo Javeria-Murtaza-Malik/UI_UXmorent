@@ -1,0 +1,10 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Assigned To,Remarks
+TC001,Validate search bar functionality, Go to homepage >Enter keyword in search bar > Press Enter,"Search suggestions , the product on click","got suggestions, and the required product",passed,high,             -,fine
+TC002,Validate product listing on the homepage, Navigate to homepage > Check if product listings are displayed,All products are listed with relevant details,Products listed as desired,passed,low,             -,successful
+TC003,Check dynamic product details page rendering, Select a product from the listing >  Verify the product details page,"Correct product details (name, price, description) are shown",Product details shown,passed,low,             -,successful
+TC004,Verify cross-browser compatibility,Open the website in different browsers >  Check for layout consistency,Website renders correctly in all major browsers,Layout was presentable,passed,medium,             -,fine
+TC005,Check responsiveness on different screen sizes," Open website on mobile, tablet, and desktop views  > Verify layout and element resizing",Website is fully responsive across all screen sizes,Website  was Responsive,passed,low,             -,responsive
+TC007,Verify checkout process flow,Rent Now > Proceed to checkout >Complete payment steps,Checkout completes successfully with a confirmation message,Checkout UX is mooth,passed,low,             -,smooth
+TC008,Check pagination on product listing page, Navigate to payments page > Check if pagination links work correctly,"Products are paginated, and navigation between pages works",pagination is working perfectly,passed,low,             -,successful
+,,"
+",,,,,             -,
